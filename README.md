@@ -28,7 +28,7 @@ To start the development server:
 npm run dev
 ```
 
-Open your browser and navigate to `http://localhost:5173` (or the URL shown in your terminal).
+Open your browser and navigate to `http://localhost:3000` (or the URL shown in your terminal).
 
 ## Building for Production
 
