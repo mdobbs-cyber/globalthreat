@@ -1,0 +1,5 @@
+{
+  "name": "Global Threat Visualizer",
+  "description": "An interactive 3D rotating globe visualizing real-time simulated cyber threats (Pew Pew map). Features adjustable rotation speed, attack intensity, and randomized vector generation.",
+  "requestFramePermissions": []
+}
