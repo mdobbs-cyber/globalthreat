@@ -1,20 +1,67 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Global Threat Visualizer
 
-# Run and deploy your AI Studio app
+A React-based application for visualizing global threats on an interactive 3D globe.
 
-This contains everything you need to run your app locally.
+## Prerequisites
 
-View your app in AI Studio: https://ai.studio/apps/drive/1MPswwo15XObLLphEuSJuX4NcY0htIJoW
+- Node.js (v18 or higher recommended)
+- npm (comes with Node.js)
 
-## Run Locally
+## Installation
 
-**Prerequisites:**  Node.js
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/mdobbs-cyber/globalthreat.git
+    cd globalthreat
+    ```
 
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Running the Application
+
+To start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser and navigate to `http://localhost:5173` (or the URL shown in your terminal).
+
+## Building for Production
+
+To build the application for production:
+
+```bash
+npm run build
+```
+
+To preview the production build:
+
+```bash
+npm run preview
+```
+
+## Usage
+
+### Control Panel
+The control panel allows you to customize the visualization:
+
+-   **Theme**: Toggle between different visual themes (e.g., Default, Cyberpunk, Minimal).
+-   **Projection**: Change the map projection (Orthographic, Mercator, etc.).
+-   **Data Layers**: Toggle different data layers on the globe.
+
+### Interaction
+-   **Rotate**: Click and drag the globe to rotate it.
+-   **Zoom**: Use the scroll wheel to zoom in and out.
+-   **Hover**: Hover over data points to see more details.
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
