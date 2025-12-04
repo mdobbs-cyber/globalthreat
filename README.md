@@ -44,6 +44,31 @@ To preview the production build:
 npm run preview
 ```
 
+## Docker Support
+
+You can also run the application using Docker.
+
+### Using Docker Compose
+
+1.  Build and start the container:
+    ```bash
+    docker-compose up -d --build
+    ```
+
+2.  Open your browser and navigate to `http://localhost:3000`.
+
+### Manual Build
+
+1.  Build the image:
+    ```bash
+    docker build -t globalthreat .
+    ```
+
+2.  Run the container:
+    ```bash
+    docker run -p 3000:80 globalthreat
+    ```
+
 ## Usage
 
 ### Control Panel
