@@ -47,11 +47,29 @@ npm run preview
 ## Usage
 
 ### Control Panel
-The control panel allows you to customize the visualization:
 
+The control panel provides various tools to customize the visualization and interact with external devices.
+
+#### Visualization Controls
 -   **Theme**: Toggle between different visual themes (e.g., Default, Cyberpunk, Minimal).
 -   **Projection**: Change the map projection (Orthographic, Mercator, etc.).
--   **Data Layers**: Toggle different data layers on the globe.
+-   **Data Layers**: Toggle different data layers (Satellites, Graticule, etc.).
+
+#### Sliders
+-   **SPIN**: Controls the rotation speed of the globe.
+-   **LOAD**: Adjusts the intensity of simulated cyber attacks (max concurrent attacks).
+-   **SATS**: Sets the number of satellites orbiting the globe.
+-   **ZOOM**: Controls the camera zoom level.
+
+#### WLED Integration
+Sync your globe's visual theme with your room lighting using WLED.
+
+1.  **Enter IP**: Input the IP address of your WLED-enabled device (e.g., `192.168.1.50`).
+2.  **Test Connection**: Click the wifi icon to verify connectivity.
+3.  **Controls**:
+    -   **Brightness**: Adjust the LED brightness.
+    -   **Effect**: Select from various WLED effects (Solid, Breathe, Rainbow, etc.).
+4.  **Sync**: The WLED colors will automatically update to match the selected globe theme.
 
 ### Interaction
 -   **Rotate**: Click and drag the globe to rotate it.
