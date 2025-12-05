@@ -1,6 +1,6 @@
 # Global Threat Visualizer
 
-A React-based application for visualizing global threats on an interactive 3D globe.
+A React-based application for visualizing (simulated) global threats on an interactive 3D globe.
 <img width="1483" height="841" alt="image" src="https://github.com/user-attachments/assets/70e09b21-f255-4230-adf4-19aa42c303f7" />
 
 ## Prerequisites
